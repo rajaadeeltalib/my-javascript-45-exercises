@@ -1,5 +1,3 @@
-//Excerise No. 3. 
-
 var nameCases = "malik Naseer AHMED"
 
 console.log(nameCases.toLowerCase());
@@ -13,4 +11,4 @@ function titleCase(str) {
     }
     return str.join(' ');
   }
-  console.log(titleCase("Malik naseer AHMED"));
+  console.log(titleCase(nameCases));
